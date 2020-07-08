@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">WhereCovid</string>
+    <string name="title_activity_maps">WhereCovid</string>
+    <string name="switch_map">Mostrar</string>
+    <string name="text_app">WhereCovid</string>
+
+    <string name="btGlobal">Global</string>
+    <string name="btCountry">País</string>
+    <string name="btBrazil">Brasil</string>
+    <string name="btAbout">Sobre</string>
+
+    <string name="world_fragment">Global</string>
+    <string name="country_fragment">País</string>
+    <string name="brazil_fragment">Brasil</string>
+    <string name="about_fragment">Sobre</string>
+
+    <string name="cases">Casos confirmados</string>
+    <string name="deaths">Falecidos</string>
+    <string name="recovered">Recuperados</string>
+    <string name="refuses">Recuperados</string>
+    <string name="suspects">Casos suspeitos</string>
+    <string name="state">Estado</string>
+    <string name="casesPerOneMillion">Casos por milhão</string>
+    <string name="deathsPerOneMillion">Mortes por milhão</string>
+
+    <string name="country_statistics">Confirmados Falecidos Recuperados</string>
+
+    <string name="text_about_fragment">Este aplicativo tem o intuito de apenas informar, a partir de dados estatísticos, sobre a pandemia que ocorre em 2020, em todo o mundo!\n\nDesenvolvido por\nAsa Delta Comunicações\nParaná - Brasil\n\nhttps://sites.google.com/site/asadeltacomunicacoes/</string>
+
+    <string name="thanks">WhereCovid v1.0\nAGRADECIMENTOS:\nhttps://covid19-brazil-api.now.sh/\nhttps://github.com/novelcovid/\nJohns Hopkins University\nhttps://www.flaticon.com/\nhttps://www.iconfinder.com/\nPROFISSIONAIS DA SAÚDE</string>
+
+    <string name="wait">Favor aguardar...</string>
+    <string name="empty">Aguarde...</string>
+
+    <string name="statistics">Estatísticas</string>
+    <string name="inform">Informações</string>
+    <string name="switchName">Where\nCovid</string>
+
+    <string name="my_position">Estou aqui</string>
+    <string name="final_1">Finalizar WhereCovid</string>
+    <string name="final_2">Deseja realmente sair?</string>
+    <string name="btn_yes">SIM</string>
+    <string name="btn_no">CANCELAR</string>
+    btn_no
+</resources>

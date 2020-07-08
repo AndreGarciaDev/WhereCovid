@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">WhereCovid</string>
+    <string name="title_activity_maps">WhereCovid</string>
+    <string name="switch_map">Show</string>
+    <string name="text_app">WhereCovid</string>
+
+    <string name="btGlobal">Global</string>
+    <string name="btCountry">Country</string>
+    <string name="btBrazil">Brazil</string>
+    <string name="btAbout">About</string>
+
+    <string name="world_fragment">Global</string>
+    <string name="country_fragment">Country</string>
+    <string name="brazil_fragment">Brazil</string>
+    <string name="about_fragment">About</string>
+
+    <string name="cases">Confirmed cases</string>
+    <string name="deaths">Deceased</string>
+    <string name="recovered">Recovered</string>
+    <string name="refuses">Recovered</string>
+    <string name="suspects">Suspicious cases</string>
+    <string name="state">State</string>
+    <string name="casesPerOneMillion">Cases per million</string>
+    <string name="deathsPerOneMillion">Deaths per million</string>
+
+    <string name="country_statistics">Confirmed Deceased Recovered</string>
+
+    <string name="text_about_fragment">This application is intended to only inform, from statistical data, on the pandemic that occurs in 2020, worldwide!\n\nDeveloped by\nAsa Delta Comunicações\nParaná - Brasil\n\nhttps://sites.google.com/site/asadeltacomunicacoes/</string>
+
+    <string name="thanks">WhereCovid v1.0\nTHANKS:\nhttps://covid19-brazil-api.now.sh/\nhttps://github.com/novelcovid/\nJohns Hopkins University\nhttps://www.flaticon.com/\nhttps://www.iconfinder.com/\nHEALTH PROFESSIONALS</string>
+
+    <string name="wait">Please wait...</string>
+    <string name="empty">Wait...</string>
+
+    <string name="statistics">Statistics</string>
+    <string name="inform">Information</string>
+    <string name="switchName">Where\nCovid</string>
+
+    <string name="my_position">I\'m here</string>
+    <string name="final_1">End WhereCovid</string>
+    <string name="final_2">Do you really want to finish?</string>
+    <string name="btn_yes">YES</string>
+    <string name="btn_no">CANCEL</string>
+</resources>

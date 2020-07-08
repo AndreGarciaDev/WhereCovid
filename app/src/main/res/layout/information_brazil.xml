@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BrazilInformation">
+
+    <TextView
+        android:id="@+id/ufName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="35sp"
+        android:gravity="center_horizontal"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textview6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ufName"
+        android:layout_centerHorizontal="true"
+        android:text="@string/cases"
+        android:textColor="#000"
+        android:textSize="25sp"
+        android:layout_marginTop="20sp" />
+
+    <TextView
+        android:id="@+id/casesBr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview6"
+        android:layout_centerHorizontal="true"
+        android:textColor="#1355B6"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textview7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/casesBr"
+        android:layout_centerHorizontal="true"
+        android:text="@string/deaths"
+        android:textColor="#000"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/deathsBr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview7"
+        android:layout_centerHorizontal="true"
+        android:textColor="#1355B6"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textview8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/deathsBr"
+        android:layout_centerHorizontal="true"
+        android:text="@string/recovered"
+        android:textColor="#000"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/refusesBr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview8"
+        android:layout_centerHorizontal="true"
+        android:textColor="#1355B6"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textview9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/refusesBr"
+        android:layout_centerHorizontal="true"
+        android:text="@string/suspects"
+        android:textColor="#000"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/suspectsBr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview9"
+        android:layout_centerHorizontal="true"
+        android:textColor="#1355B6"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textview10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/suspectsBr"
+        android:layout_centerHorizontal="true"
+        android:text="@string/state"
+        android:textColor="#000"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/stateBr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview10"
+        android:layout_centerHorizontal="true"
+        android:textColor="#1355B6"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/image_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/stateBr"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp" />
+
+</RelativeLayout>

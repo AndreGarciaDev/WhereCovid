@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CountryInformation">
+
+    <TextView
+        android:id="@+id/countryName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="35sp"
+        android:gravity="center_horizontal"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/countryName"
+        android:layout_centerHorizontal="true"
+        android:text="@string/cases"
+        android:textColor="#000"
+        android:textSize="25sp"
+        android:layout_marginTop="20sp" />
+
+    <TextView
+        android:id="@+id/cases"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview1"
+        android:layout_centerHorizontal="true"
+        android:textColor="#1355B6"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cases"
+        android:layout_centerHorizontal="true"
+        android:text="@string/deaths"
+        android:textColor="#000"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/deaths"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview2"
+        android:layout_centerHorizontal="true"
+        android:textColor="#1355B6"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textview3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/deaths"
+        android:layout_centerHorizontal="true"
+        android:text="@string/recovered"
+        android:textColor="#000"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/recovered"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview3"
+        android:layout_centerHorizontal="true"
+        android:textColor="#1355B6"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textview4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/recovered"
+        android:layout_centerHorizontal="true"
+        android:text="@string/casesPerOneMillion"
+        android:textColor="#000"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/casesPerOneMillion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview4"
+        android:layout_centerHorizontal="true"
+        android:textColor="#1355B6"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textview5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/casesPerOneMillion"
+        android:layout_centerHorizontal="true"
+        android:text="@string/deathsPerOneMillion"
+        android:textColor="#000"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/deathsPerOneMillion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview5"
+        android:layout_centerHorizontal="true"
+        android:textColor="#1355B6"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/image_flag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/deathsPerOneMillion"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp"/>
+
+</RelativeLayout>
